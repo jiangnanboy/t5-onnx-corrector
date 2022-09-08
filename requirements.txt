@@ -2,4 +2,3 @@ torch>=1.7.0
 transformers>=4.6.0
 onnx
 onnxruntime
-fastt5
