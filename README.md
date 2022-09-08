@@ -56,5 +56,3 @@ def correct_test(model_path, model_onnx_path):
 
 #### reference
 https://github.com/shibing624/pycorrector
-
-https://github.com/Ki6an/fastT5
