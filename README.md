@@ -16,7 +16,7 @@ mengzi-t5-base-chinese-correction
 ```
 def convert_to_onnx_model(model_path, model_onnx_path):
     '''
-    :param model_path: 原始我们t5模型
+    :param model_path: 原始t5模型
     :param model_onnx_path: 保存为Onnx格式的路径
     :return:
     '''
