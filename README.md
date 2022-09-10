@@ -1,5 +1,5 @@
 ### t5-onnx模型用于中文拼写纠错
-t5纠错模型及配置可自行下载 -> https://huggingface.co/shibing624/mengzi-t5-base-chinese-correction，放到项目中。
+t5纠错模型及配置可自行下载 -> https://huggingface.co/shibing624/mengzi-t5-base-chinese-correction， 放到项目中。
 
 原始模型文件组成：
 ```
