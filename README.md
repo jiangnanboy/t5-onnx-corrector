@@ -27,7 +27,7 @@ def convert_to_onnx_model(model_path, model_onnx_path):
 转换为onnx并量化后的模型文件：
 
 ```
-T5是一个seq2seq模型(Encoder-Decoder)，由于它反复使用decoder进行推断，我们不能直接将整个模型导出到onnx。
+T5是一个seq2seq模型(Encoder-Decoder)，由于它反复使用decoder进行推断，我们不能直接将整个模型导出为onnx格式。
 我们需要分别导出编码器和解码器。
 
 |-- mengzi-t5-base-chinese-correction-decoder-quantized.onnx
