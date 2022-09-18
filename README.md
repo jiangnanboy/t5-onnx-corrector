@@ -1,7 +1,7 @@
 ### t5-onnx模型用于中文拼写纠错
-t5纠错模型及配置可自行下载 -> https://huggingface.co/shibing624/mengzi-t5-base-chinese-correction ，放到项目中。
+t5纠错模型及配置文件请自行下载 -> https://huggingface.co/shibing624/mengzi-t5-base-chinese-correction ，放到项目中。
 
-原始模型文件组成：
+原始模型文件：
 ```
 mengzi-t5-base-chinese-correction
 |-- config.json
@@ -24,7 +24,7 @@ def convert_to_onnx_model(model_path, model_onnx_path):
     model = export_and_get_onnx_model(model_path, model_onnx_path, quantized=True)
 ```
 
-转换为onnx并量化后的模型文件：
+转换为onnx格式并量化后的模型文件：
 
 ```
 T5是一个seq2seq模型(Encoder-Decoder)，由于它反复使用decoder进行推断，我们不能直接将整个模型导出为onnx格式。
